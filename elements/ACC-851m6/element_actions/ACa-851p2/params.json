@@ -1,0 +1,32 @@
+{
+    "caption": "Set Theme",
+    "fields": {
+        "ACb": {
+            "caption": "Theme",
+            "doc": "dark or light",
+            "editor": "DynamicValue",
+            "name": "themeMode",
+            "options": "Dark,Light",
+            "rank": 0,
+            "value": "text"
+        },
+        "ACc": {
+            "caption": "Theme Color",
+            "doc": "default, blackWhite, blue, green, magenta, orange, purple, teal",
+            "editor": "DynamicValue",
+            "name": "themeColor",
+            "options": "default,blackWhite,blue,green,magenta,orange,purple,teal",
+            "rank": 1,
+            "value": "text"
+        },
+        "ACd": {
+            "caption": "Theme Background",
+            "doc": "gradient, themeColor",
+            "editor": "DynamicValue",
+            "name": "themeBackground",
+            "options": "gradient,themeColor",
+            "rank": 2,
+            "value": "text"
+        }
+    }
+}

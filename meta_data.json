@@ -1,0 +1,16 @@
+{
+    "categories": {
+        "0": "ecommerce",
+        "1": "technical",
+        "2": "mobile",
+        "3": "payment",
+        "4": "productivity"
+    },
+    "demo_page": "https://walletconnect-official.bubbleapps.io/version-test/conf_demo",
+    "description": "[b]Official WalletConnect plugin for Bubble made by NovaBloq in collaboration with the WalletConnect team[/b]\n\nWalletConnect is built into more than 75 leading Web3 wallets such as TrustSwap, Cryptocom, Ledger Live, 1inch Wallet, MetaMask etc.\n\n# Features:\n- Integrated customizable UI\n- Connect/Disconnect a wallet\n- Sign a message\n- Get signed Signature\n- Events like chain changed, account changed, etc.\n- Auto-adjust UI for mobile use\nSupports any chain like Ethereum, Polygon, BSC, Arbitrum etc.\n\nDemo:\nhttps://walletconnect-official.bubbleapps.io/version-test/conf_demo\n\n[b]Video instruction:[/b]\nhttps://youtu.be/SG_9dEsxwr8\n\n---------------------------------------------------------------------------------------------------\n[b]Join the Web3 NoCode community on Discord:[/b] https://discord.gg/SwfQHfaseu\n---------------------------------------------------------------------------------------------------",
+    "image": "//s3.amazonaws.com/appforest_uf/f1670616684294x739243893685922400/wc_2.0_600x600.png",
+    "license": "open_source",
+    "link": "https://novabloq.com/contact",
+    "name": "WalletConnect Official",
+    "plugin_instructions": "# Installation\nAdd the plugin element on the page. Make sure it is on the page itself and not inside a group. If the group will be hidden (collapsed) the plugin won't run.\n\nGet a Project ID key\nGo to cloud.walletconnect.com\nInsert the key in plugin settings\n"
+}

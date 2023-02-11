@@ -1,0 +1,14 @@
+{
+    "caption": "Sign",
+    "fields": {
+        "ACo": {
+            "caption": "Message",
+            "doc": "Message to be signed.",
+            "editor": "DynamicValue",
+            "long_text": true,
+            "name": "message",
+            "rank": 0,
+            "value": "text"
+        }
+    }
+}

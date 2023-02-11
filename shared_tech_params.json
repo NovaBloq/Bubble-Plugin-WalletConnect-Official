@@ -1,0 +1,26 @@
+{
+    "assets": {
+        "ACP": {
+            "name": "logo",
+            "url": "//dd7tel2830j4w.cloudfront.net/f1670616483921x789536864753472600/wc_2.0_100x100.webp"
+        },
+        "ACf": {
+            "name": "bundle_beta_9",
+            "url": "//dd7tel2830j4w.cloudfront.net/f1671018255587x844702105340241700/bundle_beta_9.js"
+        },
+        "ACk": {
+            "name": "bundle_v2",
+            "url": "//meta.cdn.bubble.io/f1674300543894x639742498472903800/bundle_v2.js"
+        }
+    },
+    "dependencies": {
+        "plugin_api_version": "3",
+        "use_jquery": true
+    },
+    "shared_keys": {
+        "ACQ": {
+            "caption": "Project ID",
+            "type": "client_safe"
+        }
+    }
+}

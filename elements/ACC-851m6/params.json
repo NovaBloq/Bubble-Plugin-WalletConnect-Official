@@ -1,0 +1,113 @@
+{
+    "add_is_visible": true,
+    "category": "visual elements",
+    "default_dim": {
+        "height": 20,
+        "width": 20
+    },
+    "display": "WalletConnect Official",
+    "events": {
+        "ACS": {
+            "caption": "Connected",
+            "name": "connected"
+        },
+        "ACT": {
+            "caption": "Disconnected",
+            "name": "disconnected"
+        },
+        "ACg": {
+            "caption": "User Changed Account",
+            "name": "user_changed_account"
+        },
+        "ACh": {
+            "caption": "User Changed Chain",
+            "name": "user_changed_chain"
+        },
+        "ACi": {
+            "caption": "Connection Rejected",
+            "name": "connection_rejected"
+        },
+        "ACp": {
+            "caption": "Signed",
+            "name": "signed"
+        },
+        "ACr": {
+            "caption": "Signing rejected",
+            "name": "signing_rejected"
+        }
+    },
+    "fields": {
+        "ACR": {
+            "caption": "Theme",
+            "default_val": "Dark",
+            "editor": "Dropdown",
+            "name": "theme",
+            "options": "Dark,Light",
+            "rank": 0,
+            "value": "text"
+        },
+        "ACY": {
+            "caption": "Theme Color",
+            "default_val": "default",
+            "editor": "Dropdown",
+            "name": "themeColor",
+            "options": "default,blackWhite,blue,green,magenta,orange,purple,teal",
+            "rank": 1
+        },
+        "ACZ": {
+            "caption": "Theme Background",
+            "default_val": "gradient",
+            "doc": "Defaults to gradient on desktop and themeColor on mobile.",
+            "editor": "Dropdown",
+            "name": "themeBackground",
+            "options": "gradient,themeColor",
+            "rank": 2
+        }
+    },
+    "icon": "ion-lock-combination",
+    "property_applications": {
+        "resizable": true
+    },
+    "states": {
+        "ACN": {
+            "caption": "Modal is Open",
+            "initialization_code": {
+                "fn": "function(properties, context) {\n\n\n\n}"
+            },
+            "name": "modal_is_open",
+            "value": "boolean"
+        },
+        "ACU": {
+            "caption": "Connected Wallet Address",
+            "initialization_code": {
+                "fn": "function(properties, context) {\n\n\n\n}"
+            },
+            "name": "connected_wallet_address",
+            "value": "text"
+        },
+        "ACV": {
+            "caption": "Connected to Chain ID",
+            "initialization_code": {
+                "fn": "function(properties, context) {\n\n\n\n}"
+            },
+            "name": "connected_to_chain_id",
+            "value": "number"
+        },
+        "ACW": {
+            "caption": "Is Wallet Connected",
+            "initialization_code": {
+                "fn": "function(properties, context) {\n\n\n\n}"
+            },
+            "name": "is_wallet_connected",
+            "value": "boolean"
+        },
+        "ACq": {
+            "caption": "Signature",
+            "initialization_code": {
+                "fn": "function(properties, context) {\n\n\n\n}"
+            },
+            "name": "signature",
+            "value": "text"
+        }
+    }
+}
