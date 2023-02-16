@@ -11,6 +11,10 @@
         "ACk": {
             "name": "bundle_v2",
             "url": "//meta.cdn.bubble.io/f1674300543894x639742498472903800/bundle_v2.js"
+        },
+        "ACt": {
+            "name": "bundle_2.1.1",
+            "url": "//meta.cdn.bubble.io/f1676544072401x479488295078891650/bundle_2.1.1.js"
         }
     },
     "dependencies": {
